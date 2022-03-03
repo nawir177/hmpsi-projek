@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+
+@media screen and (max-width:600px) {
+    .card-profile ul li {
+        font-size: 12px;
+    }
+
+    .card-profile p {
+        font-size: 14px;
+    }
+
+    .card2 p {
+        font-size: 13px;
+    }
+
+    .frame {
+        width: 150px;
+        height: 150px;
+    }
+
+    section{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    section h2{
+        font-size: 16px;
+    }
+
+    section h1{
+        font-size: 25px;
+    }
+}
+
+
+@media only screen and (min-width:1220px) {
+    .col-lg-4 .card-profile ul li {
+        font-size: 16px;
+    }
+
+    .row .col-lg-4 .card-profile {
+        height: 450px;
+        font-size: 21px;
+    }
+
+    .card2 p {
+        font-size: 19px;
+    }
+    section{
+        padding-top: 90px;
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width:700px) {
+    .card-profile ul li {
+        font-size: 13.5px;
+    }
+
+    .card2 {
+        height: 490px;
+    }
+
+    .card-profile {
+        height: 30rem;
+        font-size: 18px;
+    }
+
+    .card-profile:nth-child(1){
+        height: 100%;
+    }
+
+    .frame {
+        width: 200px;
+        height: 200px;
+    }
+
+    section h1{
+        font-size: 55px;
+        line-height: 70px;
+    }
+
+}
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+section p .btn:hover {
+    background-color: #fff;
+}
+section h1{
+    font-family: 'Jost', sans-serif;
+}
+
+
+.card-profile {
+    background: #020f50;
+    color: white;
+    border-radius: 16px;
+    font-family: 'Oswald', sans-serif;
+    border: solid 4px rgb(255, 255, 255);
+}
+
+.card2 {
+    background: #f0efef;
+    color: rgb(4, 8, 83);
+    border-radius: 15px;
+    font-family: 'Oswald', sans-serif;
+    border: rgb(0, 255, 238) 5px solid;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+.navbar .container .collapse ul li a:hover {
+    color: #021369;
+}
+
+
+
+.navbar .container .collapse ul li a {
+    color: #a8adc7;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.btn {
+    width: 12em;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(0, 9, 180);
+    color: white;
+    border: solid 3px white;
+    border-radius: 23px;
+    margin-right: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(0, 5, 106);
+    color: white;
+}
+
+
